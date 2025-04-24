@@ -1,0 +1,16 @@
+configuration {
+    modi:                   "combi";
+    terminal:               "alacritty";
+    kb-cancel:              "Escape,Alt+F1,Alt+F2";
+    sorting-method:         "fzf";
+    combi-modi:             "drun";
+    combi-hide-mode-prefix:	true;
+    display-combi:          "Search";
+    fixed-num-lines:        false;
+    yoffset:                -130;
+}
+
+@theme "spotlight-dark.rasi"
+listview {
+    lines: 5;
+}
